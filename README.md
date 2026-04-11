@@ -6,6 +6,8 @@
 
 **Submission**: Submit your GitHub repository link containing all code, logs, and screenshots.
 
+**Live App (Hugging Face Space):** [https://huggingface.co/spaces/Ramji-Purwar/UrbanNest-Predictor](https://huggingface.co/spaces/Ramji-Purwar/UrbanNest-Predictor)
+
 ## Problem Statement: UrbanNest Analytics
 
 You have just been hired as the Lead MLOps Engineer at **UrbanNest Analytics**, a fast-growing Property Technology (PropTech) startup. The company wants to launch a **Dynamic House Rent Prediction Engine** for four key cities: Mumbai, Pune, Delhi, and Hisar. 
