@@ -3,18 +3,11 @@ import pandas as pd
 import pickle
 import numpy as np
 
-# ------------------------------------------------------------------
-# Page Configuration
-# ------------------------------------------------------------------
 st.set_page_config(
     page_title="UrbanNest Rent Predictor",
-    page_icon="🏠",
     layout="centered"
 )
 
-# ------------------------------------------------------------------
-# Load Model & Encoders
-# ------------------------------------------------------------------
 @st.cache_resource
 def load_model():
     with open('models/best_rf_model.pkl', 'rb') as f:
@@ -27,18 +20,13 @@ label_encoders = model_data['label_encoders']
 feature_cols = model_data['feature_cols']
 categorical_cols = model_data['categorical_cols']
 
-# ------------------------------------------------------------------
-# Retrieve original category labels for dropdowns
-# ------------------------------------------------------------------
 location_classes = list(label_encoders['location'].classes_)
 city_classes = list(label_encoders['city'].classes_)
 status_classes = list(label_encoders['Status'].classes_)
 property_type_classes = list(label_encoders['property_type'].classes_)
 
-# ------------------------------------------------------------------
-# UI
-# ------------------------------------------------------------------
-st.title("🏠 UrbanNest Rent Prediction Engine")
+
+st.title("UrbanNest Rent Prediction Engine")
 st.markdown("Predict monthly rent for properties across **Mumbai, Pune, Delhi & Hisar**.")
 st.markdown("---")
 
