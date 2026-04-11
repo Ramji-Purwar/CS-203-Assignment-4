@@ -1,4 +1,4 @@
-﻿# Assignment 4: PropTech Startup Strategy - Rent Prediction Pipeline
+# Assignment 4: PropTech Startup Strategy - Rent Prediction Pipeline
 
 **Course**: Software Tools and Techniques for AI
 
