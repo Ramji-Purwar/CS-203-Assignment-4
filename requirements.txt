@@ -1,0 +1,8 @@
+streamlit
+pandas
+scikit-learn
+optuna
+jupyter
+matplotlib
+trackio
+scipy
