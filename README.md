@@ -129,4 +129,4 @@ Assignment_4/
     └── streamlit_working.png # Task 3 screenshot
 ```
 
-Submit the link to your GitHub repository when the google form is shared. Good luck, Lead Engineer!
+Submit the link to your GitHub repository when the google form is shared. Good luck, Lead Engineer.
