@@ -132,7 +132,7 @@ Assignment_4/
 Submit the link to your GitHub repository when the google form is shared. Good luck, Lead Engineer.
 
 ## Contributers
-Ramji Purwar 
-Harsh kumar Jha 
-Yash Goyal 
+Ramji Purwar , 
+Harsh kumar Jha , 
+Yash Goyal , 
 Omm Arindam 
